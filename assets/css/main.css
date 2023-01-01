@@ -610,6 +610,26 @@ input, select, textarea {
 		margin: 0rem 1.5rem 1rem 1.5rem;
 	}
 
+	.icon_index {
+		margin-bottom: 0rem; 
+	}
+
+	@media screen and (max-width: 736px) {
+
+		.icon_index {
+			margin-bottom: 1rem; 
+		}
+
+	}
+
+	@media screen and (max-width: 480px) {
+
+		.icon_index {
+			margin-bottom: 1.5rem; 
+		}
+
+	}
+
 	.pink{
 		color: #FD346E;
 		font-weight: 700;
