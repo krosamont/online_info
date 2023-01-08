@@ -611,7 +611,7 @@ input, select, textarea {
 	}
 
 	.icon_index {
-		margin-bottom: 0rem; 
+		margin-bottom: 0rem;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -1353,6 +1353,18 @@ input, select, textarea {
 				padding: 3rem 2rem;
 				max-height: 40rem;
 				overflow: hidden;
+			}
+
+			@media screen and (max-width: 490px) {
+				#header .content .inner {
+					max-height: 41rem;
+				}
+			}
+
+			@media screen and (max-width: 360px) {
+				#header .content .inner {
+					max-height: 43rem;
+				}		
 			}
 
 				#header .content .inner > :last-child {
